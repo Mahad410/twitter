@@ -717,7 +717,7 @@ textarea:focus {
         content: "";
         position: absolute;
         background-image: url("tweet-icon.svg");
-        background-color: #136094;
+        background-color: var(--sky-blue);
         background-repeat: no-repeat;
         background-position: center;
         width: 40px;
