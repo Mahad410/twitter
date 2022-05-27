@@ -716,7 +716,7 @@ textarea:focus {
     .navbar-mobile::after {
         content: "";
         position: absolute;
-        background-image: url("/images/tweet-icon.svg");
+        background-image: url("tweet-icon.svg");
         background-color: #136094;
         background-repeat: no-repeat;
         background-position: center;
