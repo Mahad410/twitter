@@ -517,13 +517,14 @@ textarea:focus {
 
 .navbar-mobile {
     position: fixed;
-    top: 91.5vh;
-    left: 15%;
-    right: 0;
+    bottom: 0;
+    left: 0.5%;
+    right: 0.5%;
     background-color: var(--black);
     box-sizing: border-box;
     height: 60px;
     display: none;
+    z-index: 999999;
 }
 
 .navbar-mobile ul {
@@ -640,7 +641,6 @@ textarea:focus {
         grid-template-columns: 1fr;
         width: 100%;
         min-height: 100vh;
-        overflow: scroll;
     }
     .main-links {
         display: none;
@@ -710,9 +710,6 @@ textarea:focus {
         padding: 0 0 0 75px;
     }
     .navbar-mobile {
-        bottom: 0;
-        left: 0.5%;
-        right: 0.5%;
         display: block;
     }
     .navbar-mobile::after {
