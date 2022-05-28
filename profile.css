@@ -766,6 +766,7 @@ textarea:focus {
     .main-container {
         grid-template-columns: 1fr;
         width: 100%;
+        min-height: 100vh;
     }
     .main-links {
         display: none;
@@ -831,7 +832,7 @@ textarea:focus {
         padding: 0 25px 0 75px;
     }
     .navbar-mobile {
-        top: 92vh;
+        bottom: 0;
         left: 0.5%;
         right: 0.5%;
         display: block;
@@ -853,6 +854,7 @@ textarea:focus {
         box-shadow: 0px 0px 5px 4px rgba(204, 204, 204, 0.30);
         -webkit-box-shadow: 0px 0px 5px 4px rgba(204, 204, 204, 0.30);
         -moz-box-shadow: 0px 0px 5px 4px rgba(204, 204, 204, 0.30);
+        z-index: 9999;
     }
     .tweet-menu li:nth-child(1):after {
         left: 5px;
