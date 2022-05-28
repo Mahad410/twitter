@@ -240,7 +240,7 @@ ul {
 .head-right::before {
     content: "";
     position: absolute;
-    background: url(images/search.svg);
+    background: url(search.svg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 20px;
